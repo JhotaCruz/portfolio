@@ -10,7 +10,7 @@
                             <a class="nav-link <?php echo $pagina == "inicio"? "active" : ""; ?> px-4" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $pagina == "sobre-mi" ? "active" : ""; ?> px-4" href="sobre-mi.php">Nosotros</a>
+                            <a class="nav-link <?php echo $pagina == "sobre-mi" ? "active" : ""; ?> px-4" href="sobre-mi.php">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?php echo $pagina == "proyectos" ? "active" : ""; ?> px-4" href="proyectos.php">Proyectos</a>
