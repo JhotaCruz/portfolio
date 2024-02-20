@@ -16,30 +16,7 @@
 
 <body id="contacto" class="d-flex flex-column h-100">
   <header class="container">
-    <nav class="navbar navbar-expand-md mb-4">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link px-4" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4" href="sobre-mi.html">Sobre mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 active" href="contactos.html">Contactos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php include_once "menu.php"; ?>
   </header>
 
   <main class="container">
@@ -64,8 +41,7 @@
             <input type="tel" name="txtTel" id="txtTel" placeholder="Telefono" class="form-control shadow">
           </div>
           <div class="pb-3">
-            <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow"
-              placeholder="Dejame tu mensaje"></textarea>
+            <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Dejame tu mensaje"></textarea>
           </div>
           <div>
             <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
@@ -78,7 +54,7 @@
   <footer class="container mt-auto py-4">
     <div class="btn-whatsapp">
       <a href="https://api.whatsapp.com/send?phone=+573017795555" target="_blank">
-      <i class="fa-brands fa-whatsapp px-3 pt-3 pb-4"></i></a>
+        <i class="fa-brands fa-whatsapp px-3 pt-3 pb-4"></i></a>
     </div>
     <div class="row">
       <div class="col-3">
