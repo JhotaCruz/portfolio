@@ -24,40 +24,41 @@ $pagina = "contacto";
   </header>
 
   <main class="container">
-    <div class="row">
-      <div class="col-12 pt-3 pb-5">
-        <h1>Contactos</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-sm-6">
-        <p>Te Invito a dejarme un mensaje o contactarme por Whatsapp</p>
-      </div>
-      <div class="col-12 col-sm-6">
-        <form action="" method="post">
-          <div class="pb-3">
-            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
-          </div>
-          <div class="pb-3">
-            <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
-          </div>
-          <div class="pb-3">
-            <input type="tel" name="txtTel" id="txtTel" placeholder="Telefono" class="form-control shadow">
-          </div>
-          <div class="pb-3">
-            <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Dejame tu mensaje"></textarea>
-          </div>
-          <div>
-            <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </main>
+        <div class="row">
+            <div class="col-12 py-5">
+                <h1>Contacto</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <form action="" method="POST">
+                    <div class="pb-3">
+                        <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre" class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <input type="email" id="txtCorreo" name="txtCorreo" placeholder="Correo" class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <input type="tel" id="txtTelefono" name="txtTelefono" placeholder="Teléfono/Whatsapp"
+                            class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+                    <div class="pb-3">
+                        <button class="btn btn-blanco px-3">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 
   <footer class="container mt-auto py-4">
     <div class="btn-whatsapp">
-      <a href="https://api.whatsapp.com/send?phone=+573017795555" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=573017795555" target="_blank">
         <i class="fa-brands fa-whatsapp px-3 pt-3 pb-4"></i></a>
     </div>
     <div class="row">

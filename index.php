@@ -46,7 +46,7 @@ $pagina = "inicio";
 
         <footer class="container mt-auto py-4">
             <div class="btn-whatsapp">
-              <a href="https://api.whatsapp.com/send?phone=+573017795555" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=573017795555" target="_blank">
               <i class="fa-brands fa-whatsapp px-3 pt-3 pb-4"></i></a>
             </div>
             <div class="row">
