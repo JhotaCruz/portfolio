@@ -6,7 +6,9 @@ if ($_POST){
   $correo = $_POST["txtCorreo"];
   $telefono = $_POST["txtTelefono"];
   $mensaje = $_POST["txtMensaje"];
-
+  
+  if($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "") 
+  {
 $para  = 'jhon_tsc@hotmail.com' . ', '; 
 $título = 'Recibiste un mensaje desde tu web';
 
@@ -30,6 +32,7 @@ $cabeceras .= 'From: jhon <jhon@example.com>' . "\r\n";
 //mail($para, $título, $mensaje, $cabeceras);
 header("Location: confirmacion-envio.php");
 
+}
 }
 ?>
 
